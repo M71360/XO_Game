@@ -1,30 +1,41 @@
-
-.game{
-     width: 255px;
-     text-align: center;
-     font-family: Al Bayan,'Courier New', Courier, monospace;
-     color: white;
-     margin: auto;
-     font-weight: 500;
-}
-.title{
-     background: aqua;
-     padding: 5px 0;
-     margin: 5px 0;
-}
-span{
-     color: rgb(0, 0, 0);
-}
-.square{
-     width: 80px;
-     height: 80px;
-     background: aqua;
-     float: left;
-     margin: 2px;
-     font-size: 50px;
-     text-align: center;
-}
-.square:hover{
-     background: black;
-     cursor: pointer;
-}
+.game {
+    width: 100vw; 
+    height: 100vh;
+    text-align: center;
+    font-family: Al Bayan, 'Courier New', Courier, monospace;
+    color: white;
+    margin: 0; 
+    font-weight: 500;
+    display: flex; 
+    flex-wrap: wrap; 
+    justify-content: center; 
+    align-items: center; 
+  }
+  
+  .title {
+    width: 100%; 
+    background: aqua;
+    padding: 5px 0;
+    margin: 0; 
+  }
+  
+  span {
+    color: rgb(0, 0, 0);
+  }
+  
+  .square {
+    width: calc(33.33vw - 4px); 
+    height: calc(33.33vh - 4px); 
+    background: aqua;
+    margin: 2px;
+    font-size: calc(10vw);
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+  }
+  
+  .square:hover {
+    background: black;
+    cursor: pointer;
+  }
+  
