@@ -1,0 +1,30 @@
+
+.game{
+     width: 255px;
+     text-align: center;
+     font-family: Al Bayan,'Courier New', Courier, monospace;
+     color: white;
+     margin: auto;
+     font-weight: 500;
+}
+.title{
+     background: aqua;
+     padding: 5px 0;
+     margin: 5px 0;
+}
+span{
+     color: rgb(0, 0, 0);
+}
+.square{
+     width: 80px;
+     height: 80px;
+     background: aqua;
+     float: left;
+     margin: 2px;
+     font-size: 50px;
+     text-align: center;
+}
+.square:hover{
+     background: black;
+     cursor: pointer;
+}
